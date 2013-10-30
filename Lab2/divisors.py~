@@ -8,14 +8,16 @@ def divisors2():
 	for num in xrange(1,n):
 		if n % num == 0:		
 			print num
-def divisors3(n):	
+def divisors3(n):
+	n = int(raw_input("Please put a number"))	
 	for num in xrange(1,n):
 		if n % num == 0:		
 			print num
 
 
 if __name__ == "__main__":
-	divisors3(100)
+	divisors2()
+	divisors3(n)
 	
 	
 	
