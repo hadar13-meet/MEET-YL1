@@ -16,6 +16,7 @@ def divisors3(n):
 
 if __name__ == "__main__":
 	divisors3(100)
+
 	
 	
 	
