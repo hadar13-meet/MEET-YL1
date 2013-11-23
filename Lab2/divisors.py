@@ -15,7 +15,8 @@ def divisors3(n):
 
 
 if __name__ == "__main__":
-	divisors3(100)
+	n = int(raw_input("Please put a number "))
+	divisors3(n)
 
 	
 	
